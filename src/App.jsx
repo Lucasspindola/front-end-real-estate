@@ -1,9 +1,10 @@
 import './App.css';
-import { StyledHeader } from './components/Header/style';
+import HeaderPage from './components/Header';
+
 function App() {
   return (
     <div className="App">
-    <StyledHeader>HELLO</StyledHeader>
+    <HeaderPage/>
     </div>
   );
 }
